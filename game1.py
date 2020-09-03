@@ -15,9 +15,7 @@ def callback(r,c):
         b[r][c].configure(text = 'O')
         player = 'X'
 root = Tk()
-b = [[0,0,0],
-[0,0,0],
-[0,0,0]]
+b = [[0,0,0],[0,0,0],[0,0,0]]
 for i in range(3):
     for j in range(3):
         b[i][j] = Button(font=('Verdana', 56), width=3, bg='yellow',
